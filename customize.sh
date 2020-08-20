@@ -12,4 +12,5 @@
 #cp -f package/litte/banner package/base-files/files/etc/banner
 #cp -f package/litte/Leandiffconfig diffconfig && cp diffconfig .config && make defconfig
 #./scripts/feeds update -a && ./scripts/feeds install -a && ./scripts/feeds install -a
+git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-packages
 
